@@ -3,13 +3,14 @@ Created on Thu Feb 29 06:59:12 2024
 
 @author: OLUWATOBA ADEOYE (23032031)
 """
+# Libraries
 import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit
 
-#Reading the data frame
+# Reading the data frame
 df_capita_country = "C:/Users/user/Desktop/ADS1/CO2perGDP (1).csv"
 df_capita = pd.read_csv(df_capita_country, skiprows = 4)
 
